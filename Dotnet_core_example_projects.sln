@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calling_Async_Method_from_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calling_Sync_Method_from_Async_Method", "Calling_Sync_Method_from_Async_Method\Calling_Sync_Method_from_Async_Method.csproj", "{FA63D64D-FCB6-4A0F-9E61-F4E9698F6A23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka_Producer", "Kafka_Producer\Kafka_Producer.csproj", "{947E407F-A306-4AAA-AF3B-3446287B40F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka_Consumer", "Kafka_Consumer\Kafka_Consumer.csproj", "{1C4B3D80-DEA0-4852-8879-8E9FF8F54B84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FA63D64D-FCB6-4A0F-9E61-F4E9698F6A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA63D64D-FCB6-4A0F-9E61-F4E9698F6A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA63D64D-FCB6-4A0F-9E61-F4E9698F6A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947E407F-A306-4AAA-AF3B-3446287B40F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947E407F-A306-4AAA-AF3B-3446287B40F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947E407F-A306-4AAA-AF3B-3446287B40F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947E407F-A306-4AAA-AF3B-3446287B40F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4B3D80-DEA0-4852-8879-8E9FF8F54B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4B3D80-DEA0-4852-8879-8E9FF8F54B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4B3D80-DEA0-4852-8879-8E9FF8F54B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4B3D80-DEA0-4852-8879-8E9FF8F54B84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
