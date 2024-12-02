@@ -16,5 +16,5 @@ void SynchronousWork()
 async Task AsynchronousWorkAsync()
 {
     Console.WriteLine("Asynchronous work started...");
-    await Task.Delay(5000); // Simulating asynchronous operation
+    await Task.Delay(2000); // Simulating asynchronous operation
 }
